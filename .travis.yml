@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+- '9'
+sudo: false
+branches:
+  only:
+  - hexo
+before_install:
+- openssl aes-256-cbc -K $encrypted_e2e11e5af355_key -iv $encrypted_e2e11e5af355_iv
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+- cp .travis/ssh_config ~/.ssh/config
+install:
+- cd _hexo
+- git submodule update --init --recursive
+- cp -R private/* .
+- npm install
+script:
+- hexo clean
+- hexo g
+- hexo d
