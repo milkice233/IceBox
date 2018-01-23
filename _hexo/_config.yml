@@ -77,7 +77,7 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:Iceky/Iceky.github.io.git
+  repo: git@github.com:milkice233/IceBox
   branch: master
   name: milkice233
   email: Milkice.Liu+gh@gmail.com
