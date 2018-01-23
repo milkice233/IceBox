@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Milkice's IceBox
+subtitle: Maybe a way to explore the world?
+description: Milkice(奶冰)的小天地亦是栖息地～ 虽说是站点描述但是也不知道该写什么好了，反正欢迎来玩0w0.
+author: Milkice
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://milkice.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,9 +72,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+theme: material
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:Iceky/Iceky.github.io.git
+  branch: master
+  name: milkice233
+  email: Milkice.Liu+gh@gmail.com
