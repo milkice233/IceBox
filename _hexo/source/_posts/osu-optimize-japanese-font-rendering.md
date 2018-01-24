@@ -1,11 +1,11 @@
 ---
-title: osu! 日文字体显示不正常の修复方案
+title: osu 日文字体显示不正常の修复方案
 date: 2017-08-02 22:09:42
 tags:
   - Font
   - Games
   - Japanese
-  - OSU!
+  - OSU
   - Windows
 ---
 
@@ -14,8 +14,6 @@ tags:
 因为日常嫌弃Windows 10太不干净，Windows Update也提示我该把1607升级到1703了，于是就重装了一下到了1703，后来打开osu之后发现有个问题
 
 ![osu-2](https://milkice.me/wp-content/uploads/2017/12/osu-jap-optimize-2.jpg)
-
-<span style="color: #000000; background: #000000;>请无视糟糕透顶的成绩</span>
 
 嗯这个日文字体不是太养眼啊（
 
@@ -38,6 +36,3 @@ tags:
 ↑效果图如上
 
 没错就是这么简单，就这样OwO
-
-~~~不经意间又水了一篇~~~
-
