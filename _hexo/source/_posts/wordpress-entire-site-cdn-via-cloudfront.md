@@ -25,7 +25,7 @@ AWS账号审查机制可谓是全球几大知名服务商里最松的了，虚�
 ### 开始配置
 打开AWS控制台，点击CloudFront
 
-![cloudfront-wordpress-1](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-1.jpg)
+![wordpress-cloudfront-1](https://milkice.me/wp-content/uploads/2018/01/wordpress-cloudfront-1.jpg)
 
 然后点击Create Distribution，在Web栏下面点击Get started即开始配置
 
@@ -40,7 +40,7 @@ Origin Path就是你想要加速的路径（默认为空）
 
 如果你想要部署强制https可以选择HTTPS only，其他选项不变即可
 
-![cloudfront-wordpress-2](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-2.jpg)
+![wordpress-cloudfront-2](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-2.jpg)
 
 ### 配置Default Cache Behavior Settings
 Default Cache Behavior Settings，其实就是配置在默认情况下CloudFront的一些缓存条件
@@ -55,9 +55,9 @@ Default Cache Behavior Settings，其实就是配置在默认情况下CloudFront
   
 具体配置看图
 
-![cloudfront-wordpress-3](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-3.jpg)
+![wordpress-cloudfront-3](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-3.jpg)
 
-![cloudfront-wordpress-4](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-4.jpg)
+![wordpress-cloudfront-4](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-4.jpg)
 
 ### 配置Distribution Settings分发设置
 
@@ -68,7 +68,7 @@ Default Cache Behavior Settings，其实就是配置在默认情况下CloudFront
 
 其他默认，看图即可
 
-![cloudfront-wordpress-5](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-5.jpg)
+![wordpress-cloudfront-5](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-5.jpg)
 
 这时候就基本完成了，点击Create Distribution，Amazon即开始部署
 
@@ -83,21 +83,21 @@ Default Cache Behavior Settings，其实就是配置在默认情况下CloudFront
 
 如图配置
 
-![cloudfront-wordpress-6](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-6.jpg)
+![wordpress-cloudfront-6](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-6.jpg)
 
-![cloudfront-wordpress-7](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-7.jpg)
+![wordpress-cloudfront-7](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-7.jpg)
 
 （其实两个配置是一样的只要把Path Pattern的值改一下即可，wp-login.php我就不发截图了）
 
 最后好了应该是这样
 
-![cloudfront-wordpress-8](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-8.jpg)
+![wordpress-cloudfront-8](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-8.jpg)
 
 接下来去NS服务商配置CNAME记录
 
 将原来的记录删掉，再加个CNAME记录指向CloudFront给出的地址即可
 
-![cloudfront-wordpress-9](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-9.jpg)
+![wordpress-cloudfront-9](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-9.jpg)
 
 然后就等全球DNS服务器更新缓存吧
 
