@@ -133,7 +133,7 @@ prettify:
 #                    - If `includeDefaultColors` is true, this will append colors to the color pool
 #                    - If `includeDefaultColors` is false, this will instead default color pool
 hanabi:
-    enable: false
+    enable: true
     line_number: true
     includeDefaultColors: true
     customColors: 
