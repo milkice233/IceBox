@@ -114,6 +114,6 @@ Default Cache Behavior Settings，其实就是配置在默认情况下CloudFront
 
 ### 参考资料
 [http://www.xiongge.club/170.html](http://www.xiongge.club/170.html)
-[https://www.ze3kr.com/2017/01/wordpress-full-site-cdn/][https://www.ze3kr.com/2017/01/wordpress-full-site-cdn/]
+[https://www.ze3kr.com/2017/01/wordpress-full-site-cdn/](https://www.ze3kr.com/2017/01/wordpress-full-site-cdn/)
 [https://leonax.net/p/7662/wordpress-complete-cdn-from-scratch/ （不推荐，过于复杂）](https://leonax.net/p/7662/wordpress-complete-cdn-from-scratch/)
 
