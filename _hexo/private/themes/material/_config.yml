@@ -105,7 +105,8 @@ copyright_since: 2017
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
 #       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
-footer_text:
+footer_text: BACKGROUND <a href="https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=63624858">無題</a> MADE BY <a href="https://www.pixiv.net/member.php?id=9790122">smile</a><br>ICEBOX BUILT BY MILKICE WITH <i class="fa fa-heart"></i>
+
 
 # Qrcode for redirect at other device
 #    use: choose which method to generate the qrcode for each posts.
@@ -134,7 +135,7 @@ prettify:
 #                    - If `includeDefaultColors` is false, this will instead default color pool
 hanabi:
     enable: true
-    line_number: true
+    line_number: false
     includeDefaultColors: true
     customColors: 
 
@@ -143,7 +144,7 @@ hanabi:
 #   For example, you can setup a CC license as:
 #       'This blog is under a <a href="/creativecommons.html" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
 # You can also use Front-Matter `license` to override this setting.
-license: 
+license: 本作品采用 <a rel="license nofollow" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可
 
 # ---------------------------------------------------------------
 # Menu Settings
