@@ -1,5 +1,5 @@
 ---
-title:ADSL猫（RG100A）通过设置VLAN虚拟WAN口
+title: ADSL猫（RG100A）通过设置VLAN虚拟WAN口
 date: 2017-06-07 06:41:41 
 tags:
   - Openwrt
