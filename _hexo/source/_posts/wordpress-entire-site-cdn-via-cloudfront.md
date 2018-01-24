@@ -25,7 +25,7 @@ AWS账号审查机制可谓是全球几大知名服务商里最松的了，虚�
 ### 开始配置
 打开AWS控制台，点击CloudFront
 
-![cloudfront-wordpress-1](https://milkice.me/wp-content/uploads/2017/07/cloudfront-wordpress-1.jpg)
+![cloudfront-wordpress-1](https://milkice.me/wp-content/uploads/2017/07/wordpress-cloudfront-1.jpg)
 
 然后点击Create Distribution，在Web栏下面点击Get started即开始配置
 

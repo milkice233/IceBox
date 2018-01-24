@@ -9,8 +9,6 @@ tags:
   - Windows
 ---
 
-~~~最近太忙没什么好写的就随便水一篇吧格式什么的就不要care了~~~
-
 ![osu-1](https://milkice.me/wp-content/uploads/2017/12/osu-jap-optimize-1.png)
 
 因为日常嫌弃Windows 10太不干净，Windows Update也提示我该把1607升级到1703了，于是就重装了一下到了1703，后来打开osu之后发现有个问题
