@@ -8,7 +8,7 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords: Milkice
+    keywords: Milkice,Milkice's Blog,奶冰,奶冰博客,奶冰の日志,奶冰日志,奶冰冷藏室,Milkice's IceBox,奶冰的博客,奶冰的日志,Mlk,Ice
     site_verification:
         google:
         baidu:
@@ -39,7 +39,7 @@ uiux:
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
     button_color: "#757575"
-    android_chrome_color: "#0097A7"
+    android_chrome_color: "#4f4f4f"
     nprogress_color: "#29d"
     nprogress_buffer: "800"
 
@@ -64,7 +64,7 @@ thumbnail:
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#4f4f4f"
-    #bgimg: "/img/bg.png"
+    bgimg: "https://milkice.me/wp-content/uploads/2017/12/smile-bg.jpg"
     bing:
         enable: false
         parameter:
@@ -72,8 +72,8 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
-    daily_pic: "/img/daily_pic.png"
+    avatar: "https://milkice.me/wp-content/uploads/2017/12/avatar.jpg"
+    daily_pic: "https://milkice.me/wp-content/uploads/2017/12/ali-750x422.jpg"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
@@ -105,7 +105,7 @@ copyright_since: 2017
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
 #       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
-footer_text: BACKGROUND <a href="https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=63624858">無題</a> MADE BY <a href="https://www.pixiv.net/member.php?id=9790122">smile</a><br>ICEBOX BUILT BY MILKICE WITH <i class="fa fa-heart"></i>
+footer_text: BACKGROUND <a href="https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=63624858">無題</a> MADE BY <a href="https://www.pixiv.net/member.php?id=9790122">SMILE</a><br>ICEBOX BUILT BY MILKICE WITH ❤
 
 
 # Qrcode for redirect at other device
@@ -124,7 +124,7 @@ qrcode:
 #    Prettify
 #        theme: # Available value in /source/css/prettify/[theme].min.css
 prettify:
-    enable: false
+    enable: true
     theme: "github-v2"
 
 #    Hanabi (https://github.com/egoist/hanabi)
@@ -134,7 +134,7 @@ prettify:
 #                    - If `includeDefaultColors` is true, this will append colors to the color pool
 #                    - If `includeDefaultColors` is false, this will instead default color pool
 hanabi:
-    enable: true
+    enable: false
     line_number: false
     includeDefaultColors: true
     customColors: 
@@ -159,7 +159,7 @@ toc:
 
 # SNS Menu
 sns:
-    email: Milkice.Liu,hexo@gmail.com
+    email: 
     facebook: 
     twitter: "https://twitter.com/ALI_Milkice"
     googleplus: 
@@ -198,14 +198,14 @@ sidebar:
         icon: inbox
         divider: false
     categories:
-        use: false
+        use: true
         icon: chrome_reader_mode
         divider: false
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        About:
+            link: "/about-me"
+            icon: person
+            divider: false
     article_num:
         use: false
         divider: false
@@ -227,8 +227,8 @@ sidebar:
 # If you want to use gitment or gitalk,you should get the client_id and client_secret form https://github.com/settings/applications/new
 # If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://valine.js.org
 comment:
-    use: 
-    shortname: # duoshuo or disqus shortname
+    use: disqus_click
+    shortname: http-milkice-me # duoshuo or disqus shortname
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path

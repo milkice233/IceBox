@@ -5,9 +5,11 @@ tags:
   - Blog
   - IceBox
   - Milkice
+thumbnail: https://milkice.me/wp-content/uploads/2017/12/ali.jpg
 ---
 
-![Ali](https://static.milkice.me/wp-content/uploads/2017/12/ali.jpg)
+欢迎来到IceBox！我是奶冰Milkice
+
 ## 关于本站的一些详情
 * 根据本页面最初创始时间，本站建立于公元2017年3月18日
 * 最初建站的目的只是为了存放一些折腾日记 因为本人记性不好 几个月前折腾了几个小时的东西不希望在几个月后又要重蹈覆辙
@@ -71,5 +73,6 @@ PGP Fingerprint: F02E 0D37 6A3B 7ED4 05B5 BDFA 0F90 94C7 51C4 7895
 * 公元2017年11月1日左右 IceBox迁移至Azure SGP，静态资源分离至Google Firebase
 * 公元2017年11月17日左右 闭站维护暂停向公众开放
 * 公元2017年12月24日平安夜 IceBox重新开放
+* 公元2018年1月25日 IceBox-Hexo启用 作为备用博客
 
-**本页面最后更新时间：2018年1月5日 10:00 UTC+8**
+**本页面最后更新时间：2018年1月25日 23:33 UTC+8**
