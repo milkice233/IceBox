@@ -9,7 +9,7 @@ tags:
 categoris:
   - Tech
   - Web
-thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-backup-website-to-qiniu-cloud.png
+thumbnail: https://hexo.milkice.me/wp-content/uploads/2018/01/hexo-banner-backup-website-to-qiniu-cloud.png
 ---
 
 几段代码轻松搞定自动备份
@@ -150,8 +150,6 @@ Example:
 先到项目Github地址去下载qrsync二进制文件
 
 [Github/qshell](https://github.com/qiniu/qshell)
-
-![](https://milkice.me/wp-content/uploads/2017/04/1.png)
 
 解压 根据你的cpu找到相应的qshell工具
 

@@ -10,7 +10,7 @@ date: 2017-03-25 17:08:08
 categories:
   - Tech
   - Develop
-thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-hermit-force-https.png
+thumbnail: https://hexo.milkice.me/wp-content/uploads/2018/01/hexo-banner-hermit-force-https.png
 ---
 I'm always finding a perfect music player for my Icebox, and now here it is.
 
@@ -35,7 +35,7 @@ I'm always finding a perfect music player for my Icebox, and now here it is.
 
 的确，Hermit在同类网页播放器中做的是最好的，连文章图形化编辑器都有
 
-![Hermit UI Editor](https://milkice.me/wp-content/uploads/2017/03/hermit_1.png)
+![Hermit UI Editor](https://hexo.milkice.me/wp-content/uploads/2017/03/hermit_1.png)
 
 美中不足的是由于网易和虾米的音乐api都是http形式，对于全站https的网站来说就会出现HTTP/HTTPS混合内容
 
@@ -47,13 +47,13 @@ I'm always finding a perfect music player for my Icebox, and now here it is.
 
 先抓包
 
-![Xiami URI](https://milkice.me/wp-content/uploads/2017/03/hermit_2.png)
+![Xiami URI](https://hexo.milkice.me/wp-content/uploads/2017/03/hermit_2.png)
 
 嗯果然走的是虾米http协议
 
 把这段地址复制过来把http改成https试着直接从浏览器上访问
 
-![Xiami HTTPS URI](https://milkice.me/wp-content/uploads/2017/03/hermit_3-300x37.png)
+![Xiami HTTPS URI](https://hexo.milkice.me/wp-content/uploads/2017/03/hermit_3-300x37.png)
 
 有小锁，说明虾米api其实可以走https的，只不过返回的默认是http
 
@@ -261,7 +261,7 @@ foreach ($result as $k => $val) {
 
 这样子之后就能完美全站https啦
 
-![Final](https://milkice.me/wp-content/uploads/2017/03/hermit_4.png)
+![Final](https://hexo.milkice.me/wp-content/uploads/2017/03/hermit_4.png)
 
 目前已知的bug是网易云音乐的电台的mp3的证书有问题，所以无法使用
 

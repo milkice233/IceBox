@@ -5,7 +5,7 @@ tags:
   - Blog
   - IceBox
   - Milkice
-thumbnail: https://milkice.me/wp-content/uploads/2017/12/ali.jpg
+thumbnail: https://hexo.milkice.me/wp-content/uploads/2017/12/ali.jpg
 ---
 
 欢迎来到IceBox！我是奶冰Milkice

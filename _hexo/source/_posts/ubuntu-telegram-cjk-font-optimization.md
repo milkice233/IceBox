@@ -9,7 +9,7 @@ tags:
 categories:
   - Tech
   - Maintenance
-thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-ubuntu-telegram-cjk-font-optimization.png
+thumbnail: https://hexo.milkice.me/wp-content/uploads/2018/01/hexo-banner-ubuntu-telegram-cjk-font-optimization.png
 ---
 
 Without a better font rendering solution, it's just trash.
@@ -22,7 +22,7 @@ Without a better font rendering solution, it's just trash.
 映入眼帘的锯齿字体仿佛把人们带回了XP时代（雾
 对于Windows端Telegram来说 已经有人研究过这个问题了 只要替换一个dll即可
 Ubuntu端呢 虽然字体要比Windows端好看 但是也没好到哪去
-![Original Style](https://milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-1.png)
+![Original Style](https://hexo.milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-1.png)
 同时百度与谷歌上也几乎找不到调教Ubuntu版Telegram中文字体的教程 只能自己尝试了
 
 *说实话本文采用的是一种非常dirty的方式强行改变字体渲染
@@ -87,7 +87,7 @@ done
 ### 另辟蹊径
 *第二次编译前奶冰和ItsLucas在吐槽Telegram字体*
 
-![Conversation with Lucas](https://milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-2.png)
+![Conversation with Lucas](https://hexo.milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-2.png)
 
 最后一句话给了我想法
 对啊 既然Telegram内置的Open Sans不支持中文
@@ -105,21 +105,21 @@ sudo apt install font-manager
 安装好后打开，我一个一个字体翻了过去找一些渲染怪异的字体
 在几遍测试之后找到了如下的字体 这些字体就是影响Telegram使用体验的<em>罪魁祸首</em>
 
-![Font to be disabled 1](https://milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-3.png)
+![Font to be disabled 1](https://hexo.milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-3.png)
 
-![Font to be disabled 2](https://milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-4.png)
+![Font to be disabled 2](https://hexo.milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-4.png)
 
-选中要禁用的字体 点击右侧的<i class="fa fa-ban"></i>标志即可禁用
+选中要禁用的字体 点击右侧的🛇标志即可禁用
 
 **P.S.:通过试验发现Noto Sans字体家族是Ubuntu系统高度依赖的字体，一旦Noto Sans中文字体被禁会导致系统全局字体发生异常，因此只能禁用除简体中文外其他东亚语言字体**
 
 关闭窗口后重启Telegram 瞬间界面好看了很多
 
-![After 1](https://milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-5.png)
+![After 1](https://hexo.milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-5.png)
 
 ------
 
-![After 2](https://milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-6.png)
+![After 2](https://hexo.milkice.me/wp-content/uploads/2017/05/ubuntu-telegram-cjk-font-6.png)
 
 经测试，对多国语言支持良好
 

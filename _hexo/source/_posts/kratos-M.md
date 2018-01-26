@@ -7,12 +7,12 @@ tags:
 categories:
   - Tech
   - WordPress
-thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-Kratos-M.png
+thumbnail: https://hexo.milkice.me/wp-content/uploads/2018/01/hexo-banner-Kratos-M.png
 ---
 
 WordPress愚蠢之极的主题自定义方式使我不得不再开一个分支处理这些破事
 
-![Kratos Image](https://milkice.me/wp-content/uploads/2018/01/kratos-demo.png)
+![Kratos Image](https://hexo.milkice.me/wp-content/uploads/2018/01/kratos-demo.png)
 > Kratos 是一款免费开源的两栏结构并且拥有自适应效果的主题，她能够在任何浏览器下进行友好体验的访问。Kratos 秉持了专心写作专心阅读的特点，简单大方的主页构造并采用了2：1的完美比例，使得博客能在臃肿杂乱的环境中脱颖而出。Kratos 主题内置了强大的主题后台控制平台，可以轻松设置关键字及站点描述，自定义的顶部样式（背景图 or 纯色），强大的底部社交化组件，以及漂亮的博客订阅功能组件，让你的网站更加与众不同！
 
 *Content above copied from the original description of Kratos*
@@ -44,7 +44,7 @@ Kratos-M即目前本IceBox所用主题，Github项目地址在这里：[MilkiceF
 ### To-Do List
 * <del>字体大小更改不完整，部分区域仍为16px</del>
 * 将各种方框圆角设为2px
-* 优化alert-* (bootstrap明明自带alert-*系列，不知道为什么Vtrois还要在style.css里自己实现一个0 0)
+* 优化alert-\* (bootstrap明明自带alert-*系列，不知道为什么Vtrois还要在style.css里自己实现一个0 0)
 * （暂无想法 欢迎评论区内补充）
 
 ### 注意事项

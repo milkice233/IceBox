@@ -10,16 +10,16 @@ tags:
 categories:
   - Tech
   - Games
-thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-osu-optimize-japanese-font-rendering.png
+thumbnail: https://hexo.milkice.me/wp-content/uploads/2018/01/hexo-banner-osu-optimize-japanese-font-rendering.png
 ---
 
 如果不为好看的字体，那还要打osu干什么？
 
-![osu-1](https://milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-1.png)
+![osu-1](https://hexo.milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-1.png)
 
 因为日常嫌弃Windows 10太不干净，Windows Update也提示我该把1607升级到1703了，于是就重装了一下到了1703，后来打开osu之后发现有个问题
 
-![osu-2](https://milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-2.jpg)
+![osu-2](https://hexo.milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-2.jpg)
 
 嗯这个日文字体不是太养眼啊（
 
@@ -33,11 +33,11 @@ thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-osu-optimiz
 
 个么，控制面板安装之
 
-![osu-3](https://milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-3.jpg)
+![osu-3](https://hexo.milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-3.jpg)
 
 装好之后最好重启下，之后日文字体的渲染就好看多了
 
-![osu-4](https://milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-4.jpg)
+![osu-4](https://hexo.milkice.me/wp-content/uploads/2017/08/osu-jap-optimize-4.jpg)
 
 ↑效果图如上
 
