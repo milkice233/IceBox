@@ -10,6 +10,7 @@ date: 2017-03-25 07:08:08
 categories:
   - Tech
   - Develop
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-hermit-force-https.png
 ---
 I'm always finding a perfect music player for my Icebox, and now here it is.
 

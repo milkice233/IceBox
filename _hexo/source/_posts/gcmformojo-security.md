@@ -8,6 +8,7 @@ categories:
   - Tech
   - Develop
 date: 2017-03-18 19:27:34
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-gcmformojo-security.png
 ---
 既然都已经入了Google坑，为什么不享受GCM所带来的便利，比如推送QQ消息呢？
 
