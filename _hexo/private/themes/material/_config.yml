@@ -63,8 +63,8 @@ thumbnail:
 #        color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
-    purecolor: "#4f4f4f"
-    bgimg: "https://milkice.me/wp-content/uploads/2017/12/smile-bg.jpg"
+    purecolor: "#546e7a"
+    #bgimg: ""
     bing:
         enable: false
         parameter:
@@ -73,7 +73,7 @@ background:
 img:
     logo: "/img/logo.png"
     avatar: "https://milkice.me/wp-content/uploads/2017/12/avatar.jpg"
-    daily_pic: "https://milkice.me/wp-content/uploads/2017/12/ali-750x422.jpg"
+    daily_pic: "https://milkice.me/wp-content/uploads/2017/12/smile-bg.jpg"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
     footer_image:

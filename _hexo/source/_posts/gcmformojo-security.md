@@ -4,11 +4,18 @@ tags:
   - GcmForMojo
   - Perl
   - MojoWebQQ
+categories:
+  - Tech
+  - Develop
+  - Perl
 date: 2017-03-18 19:27:34
 ---
-
+既然都已经入了Google坑，为什么不享受GCM所带来的便利，比如推送QQ消息呢？
 
 ### 在开始前
+
+------
+
 目前关于QQ消息推送共有两种解决方案
 
 一为由周俊开发的GcmForMojo，另外一个则为Rikka开发的FcmForMojo
@@ -27,6 +34,9 @@ date: 2017-03-18 19:27:34
 **在此解释下，上述两个app名中的GCM与FCM只是为了区别名字，实际上两个app均采用Google新版的FCM进行消息推送，不存在消息推送上的区别**
 
 ### 准备工作
+
+------
+
 请注意本篇教程是基于基础Mojo::WebQQ已经搭建完毕的前提下对于OpenQQ的安全性进行优化
 
 如果你还没有搭建好基础Mojo::WebQQ的话可以参照kotomei的教程
@@ -43,6 +53,9 @@ date: 2017-03-18 19:27:34
 另外方便起见，本篇全篇以Mojo::WebQQ为例，如果要增强微信推送的安全性只需引入Mojo::Weixin库后按照本教程模仿即可**
 
 ### 简单分析
+
+------
+
 众所周知其实GcmForMojo的回复功能是基于Mojo::Webqq中的OpenQQ插件的
 
 数据传送默认通过HTTP完成
@@ -63,6 +76,8 @@ $client->load("Openqq",data=>{
 不过好在官方也有一套解决方案
 
 ### HTTPS加密
+
+------
 
 针对问题一，使用HTTPS而并非HTTP传送消息即可保证消息不被窃取
 在Mojo::WebQQ的文档中给出了OpenQQ在HTTPS下工作的配置代码
@@ -123,6 +138,8 @@ MII... the first intermediate certificate, i.e. the one which signed the leaf ce
 ------
 
 ### 配置盐值
+
+------
 
 针对问题二，服务端与客户端同时配置盐值
 OpenQQ插件中的auth参数就是用来解决接口被盗用的问题
@@ -222,6 +239,8 @@ $client->load("Openqq",data=>{
 (/ω＼)
 
 ### 参考资料
+
+------
 
 [CPAN/Mojo::WebQQ::Plugin::OpenQQ](https://metacpan.org/pod/distribution/Mojo-Webqq/doc/Webqq.pod#Mojo::Webqq::Plugin::Openqq)
 
