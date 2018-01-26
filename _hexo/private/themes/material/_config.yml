@@ -72,8 +72,8 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "https://milkice.me/wp-content/uploads/2017/12/avatar.jpg"
-    daily_pic: "https://milkice.me/wp-content/uploads/2017/12/smile-bg.jpg"
+    avatar: "https://hexo.milkice.me/wp-content/uploads/2017/12/avatar.jpg"
+    daily_pic: "https://hexo.milkice.me/wp-content/uploads/2017/12/smile-bg.jpg"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
