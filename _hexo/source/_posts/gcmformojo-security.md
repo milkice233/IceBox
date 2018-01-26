@@ -7,7 +7,6 @@ tags:
 categories:
   - Tech
   - Develop
-  - Perl
 date: 2017-03-18 19:27:34
 ---
 既然都已经入了Google坑，为什么不享受GCM所带来的便利，比如推送QQ消息呢？

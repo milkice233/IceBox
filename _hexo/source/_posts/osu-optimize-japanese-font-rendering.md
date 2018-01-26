@@ -7,7 +7,12 @@ tags:
   - Japanese
   - OSU
   - Windows
+categories:
+  - Tech
+  - Games
 ---
+
+如果不为好看的字体，那还要打osu干什么？
 
 ![osu-1](https://milkice.me/wp-content/uploads/2017/12/osu-jap-optimize-1.png)
 

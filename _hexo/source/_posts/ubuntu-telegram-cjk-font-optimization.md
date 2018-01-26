@@ -6,7 +6,12 @@ tags:
   - Font
   - Telegram
   - Ubuntu
+categories:
+  - Tech
+  - Maintenance
 ---
+
+Without a better font rendering solution, it's just trash.
 
 ### 前言
 > Telegram是一款俄罗斯人开发的IM软件，由于其安全性高、功能多、表情包丰富（这是重点！）、客户端优雅简介、跨平台、API强悍、完全免费，同时亦可用作逃避审查的通讯工具，因此深受国内IT相关人士喜爱

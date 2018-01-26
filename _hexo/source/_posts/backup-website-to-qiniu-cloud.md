@@ -6,7 +6,12 @@ tags:
   - Qiniu
   - Website
   - Crontab
+categoris:
+  - Tech
+  - Web
 ---
+
+几段代码轻松搞定自动备份
 
 ### 废话几句
 

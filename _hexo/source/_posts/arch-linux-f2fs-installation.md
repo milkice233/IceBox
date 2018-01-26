@@ -5,7 +5,12 @@ tags:
   - Arch
   - F2FS
   - Linux
+categories:
+  - Tech
+  - Maintenance
 ---
+
+F2FS被喻为SSD的救星，那么，能不能让Arch也用上F2FS呢？
 
 ### 一些BB
 F2FS最近被炒的十分火热，某些号称18个月不卡顿的手机用的特别开心

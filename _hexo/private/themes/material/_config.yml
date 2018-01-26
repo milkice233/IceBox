@@ -63,7 +63,7 @@ thumbnail:
 #        color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
-    purecolor: "#546e7a"
+    purecolor: "#EEEEEE"
     #bgimg: ""
     bing:
         enable: false

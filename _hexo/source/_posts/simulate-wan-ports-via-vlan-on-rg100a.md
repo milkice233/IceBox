@@ -6,7 +6,12 @@ tags:
   - RG100A
   - Router
   - VLAN
+categories:
+  - Tech
+  - Web
 ---
+
+嘛，折腾这玩意，不掉坑还行，一掉坑就是巨坑
 
 ### 前言
 自从家里宽带升到百兆之后

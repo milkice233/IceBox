@@ -6,7 +6,12 @@ tags:
   - CDN
   - CloudFront
   - WordPress
+categories:
+  - Tech
+  - Web
 ---
+
+WordPress这种动态博客讲道理全站CDN还是挺难折腾的，不过终究有办法的不是么
 
 ### 背景
 最近真的要穷的吃土啦！
