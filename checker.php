@@ -3,7 +3,7 @@ function doCurl($url,$isPost=false,$postData=null,$header=null,$customRequest=nu
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL,$url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    if(isset($postData) curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
+    if(isset($postData)) curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
     if(isset($isPost)) curl_setopt($ch, CURLOPT_POST, 1);
     if(isset($header)) curl_setopt($ch, CURLOPT_HTTPHEADER,$header);
     if(isset($customRequest)) curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $customRequest);
