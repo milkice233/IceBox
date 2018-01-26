@@ -9,6 +9,7 @@ tags:
 categoris:
   - Tech
   - Web
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-backup-website-to-qiniu-cloud.png
 ---
 
 几段代码轻松搞定自动备份

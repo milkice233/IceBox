@@ -8,6 +8,7 @@ tags:
 categories:
   - Tech
   - Maintenance
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-arch-linux-f2fs-installation.png
 ---
 
 F2FS被喻为SSD的救星，那么，能不能让Arch也用上F2FS呢？

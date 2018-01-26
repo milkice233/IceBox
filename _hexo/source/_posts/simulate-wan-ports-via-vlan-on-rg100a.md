@@ -9,6 +9,7 @@ tags:
 categories:
   - Tech
   - Web
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-simulate-wan-ports-via-vlan-on-rg100a.png
 ---
 
 嘛，折腾这玩意，不掉坑还行，一掉坑就是巨坑

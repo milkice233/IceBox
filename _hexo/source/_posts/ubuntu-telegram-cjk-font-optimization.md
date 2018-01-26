@@ -9,6 +9,7 @@ tags:
 categories:
   - Tech
   - Maintenance
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-ubuntu-telegram-cjk-font-optimization.png
 ---
 
 Without a better font rendering solution, it's just trash.
