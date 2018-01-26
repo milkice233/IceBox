@@ -1,6 +1,6 @@
 ---
 title: ADSL猫（RG100A）通过设置VLAN虚拟WAN口
-date: 2017-06-07 06:41:41 
+date: 2017-06-07 16:41:41 
 tags:
   - Openwrt
   - RG100A
@@ -42,19 +42,19 @@ P.S.:来自一个掉坑无数次的人的忠告，奶冰至少为这玩意重刷
 *P.S.：假定现在是通过网线连接RG100A的*
 
 刷好系统之后，进入web配置界面（luci），用默认密码root登录后改管理员密码，**接下来请一定打开WiFi接入点**！
-![vlan-1](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-1.jpg)
-![vlan-2](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-2.jpg)
+![vlan-1](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-1.jpg)
+![vlan-2](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-2.jpg)
 
 将你的设备通过WiFi连接至LEDE，这是为了防止VLAN配置错误后导致无法访问RG100A
 
 ### 正式开始作死
 转到switch
 
-![vlan-3](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-3.jpg)
+![vlan-3](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-3.jpg)
 
 按图配置VLAN
 
-![vlan-4](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-4.jpg)
+![vlan-4](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-4.jpg)
 
 这里呢，想想你要拿哪个端口当WAN口，我这里是拿第三个网口当WAN口，其他端口请按照图里的设置进行更改 
 
@@ -64,33 +64,33 @@ P.S.:来自一个掉坑无数次的人的忠告，奶冰至少为这玩意重刷
 
 完成后来到Interfaces界面对WAN和LAN分别配置
 
-![vlan-5](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-5.jpg)
-![vlan-6](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-6.jpg)
-![vlan-7](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-7.jpg)
-![vlan-8](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-8.jpg)
+![vlan-5](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-5.jpg)
+![vlan-6](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-6.jpg)
+![vlan-7](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-7.jpg)
+![vlan-8](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-8.jpg)
 
 勾选eth1.1（你看的没错，桥接的是代表WAN的那个VLAN），最后**按Save不要点击Save & Apply！**
 
 同理配置WAN
 
-![vlan-9](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-9.jpg)
-![vlan-10](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-10.jpg)
+![vlan-9](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-9.jpg)
+![vlan-10](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-10.jpg)
 
 WAN不需要桥接，直接eth1.2，同理*Save Save Save*!!!
 
 接下来看右上角 点击Unsaved Changes
 
-![vlan-11](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-11.jpg)
+![vlan-11](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-11.jpg)
 
 确认下配置 如果是全新安装的话应该有12条更改
 
-![vlan-12](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-12.jpg)
+![vlan-12](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-12.jpg)
 
 请注意这里是**Apply Apply Apply**，如果配置有误Apply之后还可以通过重启路由器的方式恢复，如果直接点击Save&Apply那就GG了
 
 这时候将网线插入，如果回到luci主页后WAN口显示已联通，就说明没问题了
 
-![vlan-13](https://milkice.me/wp-content/uploads/2017/12/openwrt-vlan-13.jpg)
+![vlan-13](https://milkice.me/wp-content/uploads/2017/06/openwrt-vlan-13.jpg)
 
 这时候再回到Unsaved Changes，点击Save & Apply就可以啦 
 
