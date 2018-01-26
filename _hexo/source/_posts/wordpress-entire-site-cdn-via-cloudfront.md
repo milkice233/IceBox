@@ -9,6 +9,7 @@ tags:
 categories:
   - Tech
   - Web
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-wordpress-entire-site-cdn-via-cloudfront.png
 ---
 
 WordPress这种动态博客讲道理全站CDN还是挺难折腾的，不过终究有办法的不是么

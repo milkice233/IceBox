@@ -10,6 +10,7 @@ tags:
 categories:
   - Tech
   - Games
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-osu-optimize-japanese-font-rendering.png
 ---
 
 如果不为好看的字体，那还要打osu干什么？

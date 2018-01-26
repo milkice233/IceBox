@@ -7,6 +7,7 @@ tags:
 categories:
   - Tech
   - WordPress
+thumbnail: https://milkice.me/wp-content/uploads/2018/01/hexo-banner-Kratos-M.png
 ---
 
 WordPress愚蠢之极的主题自定义方式使我不得不再开一个分支处理这些破事
